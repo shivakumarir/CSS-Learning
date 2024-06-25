@@ -1,10 +1,10 @@
 function beforesubmit(event)
 {
     let outputleaddate = document.querySelector(".outputleaddate");
-    let inputleaddate = document.querySelector(".inputleaddate");
-  //  console.log("output and inputlead date", outputleaddate,inputleaddate);
+    let inputdateval = document.getElementById("inputdate");
+  console.log("inputlead date",inputdateval.value);
 
-    outputleaddate.value=new Date(inputleaddate.value).toLocaleDateString("en_US");
-   console.log('finaloutputdate', outputleaddate.value);
+   // outputleaddate.value=new Date(inputleaddate.value).toLocaleDateString("en_US");
+   //console.log('finaloutputdate', outputleaddate.value);
 
 }
