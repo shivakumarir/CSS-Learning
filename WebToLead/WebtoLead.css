@@ -1,0 +1,28 @@
+form{
+    border: 2px solid black;
+    padding: 10px;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+h1{
+    color: red;
+    text-align: justify;
+    font-size: 30px;
+}
+input{
+    color: brown;
+    display:grid 2;
+    
+
+}
+label{
+    color: goldenrod;
+    display:grid 2;
+}
+submit{
+    margin:15px;
+    width: 300px;
+    background-color: blue;
+    
+}

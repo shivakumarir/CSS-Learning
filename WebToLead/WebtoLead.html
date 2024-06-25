@@ -1,0 +1,47 @@
+
+<html>
+   <head>
+    
+        <link rel="stylesheet" href="WebtoLead.css"></link>
+        <script src="WebtoLead.js"></script>
+   </head> 
+
+  
+    <body>
+        <h1>Create Lead</h1>
+        <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00DHu000002heIn"
+         method="POST" onsubmit="beforesubmit(event)">
+        
+        <input type=hidden name="oid" value="00DHu000002heIn">
+        <input type=hidden name="retURL" value="https://trailhead.salesforce.com/">
+        <input type=hidden name="Lead_Date__c" class="outputleaddate">
+    
+    <label for="first_name">First Name</label>
+     <input  id="first_name" maxlength="40" name="first_name" size="20" type="text" required="true"/><br><br>
+    
+    <label for="last_name">Last Name</label>&nbsp;
+    <input  id="last_name" maxlength="80" name="last_name" size="20" type="text" required="true" /><br><br>
+    
+    <label for="email">Email</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input  id="email" maxlength="80" name="email" size="20" type="text"  required="true"/><br><br>
+    
+    <label for="city">City</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input  id="city" maxlength="40" name="city" size="20" type="text" required="true" /><br><br>
+    
+    <label for="state">State/Prov</label>&nbsp;
+    <input  id="state" maxlength="20" name="state" size="20" type="text" required="true" /><br><br>
+
+    <label for="Leaddate" class="inputleaddate">Lead Date</label>&nbsp;
+    <input  id="Leaddate" maxlength="20" name="Leaddate" size="12" type="Date"  /><br><br>
+    
+       
+    <input type="submit" name="submit" >
+     
+        
+        
+    </form>
+     
+    </body>
+</html>
+
+    
